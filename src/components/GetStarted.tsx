@@ -46,10 +46,10 @@ export default function GetStarted() {
   }, []);
 
   return (
-    <section ref={sectionRef} id={gettingStartedId} className="relative py-24 bg-gradient-to-b from-[#1E1E1E] to-[#121212]">
-      <div className="container mx-auto px-6">
+    <section ref={sectionRef} id={gettingStartedId} className="relative py-16 md:py-24 bg-gradient-to-b from-[#1E1E1E] to-[#121212]">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 scroll-animate">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Get Started In <span className="gradient-text">Minutes</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">

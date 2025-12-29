@@ -69,7 +69,7 @@ export default function Features() {
 
   return (
     <section ref={sectionRef} id={featureId} className="relative py-24 bg-[#121212]">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 scroll-animate">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Powerful <span className="gradient-text">Features</span>

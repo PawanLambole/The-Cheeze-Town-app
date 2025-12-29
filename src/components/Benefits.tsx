@@ -46,15 +46,15 @@ export default function Benefits() {
   }, []);
 
   return (
-    <section ref={sectionRef} id={benefitId} className="relative py-24 bg-[#121212]">
+    <section ref={sectionRef} id={benefitId} className="relative py-16 md:py-24 bg-[#121212] overflow-hidden">
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-1/2 left-1/4 w-64 h-64 bg-[#FFB800] rounded-full filter blur-[100px]"></div>
         <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-[#FFD54A] rounded-full filter blur-[100px]"></div>
       </div>
 
-      <div className="relative container mx-auto px-6">
+      <div className="relative container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 scroll-animate">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Why We Built the <span className="gradient-text">Cheeze Town Cafe App</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">

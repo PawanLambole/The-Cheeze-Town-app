@@ -11,9 +11,9 @@ export default function Hero() {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#FFD54A] rounded-full filter blur-[120px]"></div>
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 container mx-auto px-4 md:px-6 pt-32 pb-12 md:py-20 grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-white space-y-8 animate-slide-in-left">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
             Welcome to <span className="gradient-text">The Cheese Town</span>
           </h1>
 
@@ -21,10 +21,10 @@ export default function Hero() {
             Our own cafe app powers everything we do – from taking your order to serving fresh pizzas, coffee, and desserts right on time.
           </p>
 
-          <div className="pt-4">
+          <div className="pt-4 pb-4">
             <a
               href="https://expo.dev/artifacts/eas/wsqryyDMTgoYBvCWDDHNHD.apk"
-              className="inline-flex items-center gap-3 bg-gradient-to-r from-[#FFB800] to-[#FFD54A] text-black px-10 py-5 rounded-full text-lg font-semibold hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-[#FFB800]/50 animate-pulse-glow"
+              className="inline-flex items-center gap-3 bg-gradient-to-r from-[#FFB800] to-[#FFD54A] text-black px-8 md:px-10 py-4 md:py-5 rounded-full text-lg font-semibold hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-[#FFB800]/50 animate-pulse-glow"
             >
               <Smartphone className="w-6 h-6" />
               Download Cafe App
@@ -50,7 +50,7 @@ export default function Hero() {
         <div className="relative flex items-center justify-center">
           <div className="relative w-full max-w-md">
             <div className="glass-card rounded-[3rem] p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
-              <div className="bg-gradient-to-br from-[#1E1E1E] to-[#121212] rounded-[2rem] p-6 h-[600px] flex items-center justify-center border-4 border-[#FFB800]/20">
+              <div className="bg-gradient-to-br from-[#1E1E1E] to-[#121212] rounded-[2rem] p-6 h-auto aspect-[9/18] md:h-[600px] flex items-center justify-center border-4 border-[#FFB800]/20">
                 <div className="text-center space-y-6">
                   <div className="w-24 h-24 mx-auto rounded-2xl overflow-hidden bg-black shadow-xl">
                     <img src={cafeLogo} alt="The Cheese Town app" className="w-full h-full object-contain" />
@@ -61,25 +61,25 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="absolute -top-10 -right-10 animate-float" style={{ animationDelay: '0s' }}>
-              <div className="bg-gradient-to-br from-[#FFB800] to-[#FFD54A] w-20 h-20 rounded-2xl flex items-center justify-center shadow-xl">
-                <Pizza className="w-10 h-10 text-white" />
+            <div className="absolute -top-4 -right-2 md:-top-10 md:-right-10 animate-float" style={{ animationDelay: '0s' }}>
+              <div className="bg-gradient-to-br from-[#FFB800] to-[#FFD54A] w-14 h-14 md:w-20 md:h-20 rounded-2xl flex items-center justify-center shadow-xl">
+                <Pizza className="w-8 h-8 md:w-10 md:h-10 text-white" />
               </div>
             </div>
 
-            <div className="absolute top-1/4 -left-10 animate-float" style={{ animationDelay: '0.5s' }}>
+            <div className="absolute top-1/4 -left-4 md:-left-10 animate-float" style={{ animationDelay: '0.5s' }}>
               <div className="bg-gradient-to-br from-[#FFD54A] to-[#FFB800] w-16 h-16 rounded-2xl flex items-center justify-center shadow-xl">
                 <Coffee className="w-8 h-8 text-white" />
               </div>
             </div>
 
-            <div className="absolute bottom-20 -right-8 animate-float" style={{ animationDelay: '1s' }}>
-              <div className="bg-gradient-to-br from-[#FFB800] to-[#FFD54A] w-16 h-16 rounded-2xl flex items-center justify-center shadow-xl">
-                <Cake className="w-8 h-8 text-white" />
+            <div className="absolute bottom-16 -right-2 md:bottom-20 md:-right-8 animate-float" style={{ animationDelay: '1s' }}>
+              <div className="bg-gradient-to-br from-[#FFB800] to-[#FFD54A] w-12 h-12 md:w-16 md:h-16 rounded-2xl flex items-center justify-center shadow-xl">
+                <Cake className="w-6 h-6 md:w-8 md:h-8 text-white" />
               </div>
             </div>
 
-            <div className="absolute bottom-1/3 -left-8 animate-float" style={{ animationDelay: '1.5s' }}>
+            <div className="absolute bottom-1/3 -left-2 md:-left-8 animate-float" style={{ animationDelay: '1.5s' }}>
               <div className="bg-gradient-to-br from-[#FFD54A] to-[#FFB800] w-14 h-14 rounded-2xl flex items-center justify-center shadow-xl">
                 <Apple className="w-7 h-7 text-white" />
               </div>

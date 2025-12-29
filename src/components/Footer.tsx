@@ -4,7 +4,7 @@ import cafeLogo from '../assets/logo.png';
 export default function Footer() {
   return (
     <footer className="relative bg-[#121212] border-t border-[#FFB800]/15">
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
@@ -23,7 +23,7 @@ export default function Footer() {
               <a href="#" className="w-10 h-10 glass-card rounded-lg flex items-center justify-center hover:bg-[#FFB800]/10 transition-colors">
                 <Twitter className="w-5 h-5 text-gray-400" />
               </a>
-              <a href="#" className="w-10 h-10 glass-card rounded-lg flex items-center justify-center hover:bg-[#FFB800]/10 transition-colors">
+              <a href="https://www.instagram.com/thecheestowncafe7/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 glass-card rounded-lg flex items-center justify-center hover:bg-[#FFB800]/10 transition-colors">
                 <Instagram className="w-5 h-5 text-gray-400" />
               </a>
               <a href="#" className="w-10 h-10 glass-card rounded-lg flex items-center justify-center hover:bg-[#FFB800]/10 transition-colors">
@@ -36,22 +36,15 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Visit Us</h3>
             <ul className="space-y-2 text-gray-400">
               <li>The Cheese Town</li>
-              <li>Your local neighbourhood cafe</li>
+              <li>In front of V.W.S College, Sakri Road, Monster Gym,Dhule 424001</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li><a href="tel:#" className="text-gray-400 hover:text-[#FFB800] transition-colors">Phone: Add cafe number</a></li>
-              <li><a href="mailto:#" className="text-gray-400 hover:text-[#FFB800] transition-colors">Email: Add cafe email</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-white font-semibold mb-4">Opening Hours</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>Mon – Sun: Add timings</li>
+              <li><a href="tel:+919823227596" className="text-gray-400 hover:text-[#FFB800] transition-colors">+91 98232 27596</a></li>
+              <li><a href="mailto:thecheesetown@gmail.com" className="text-gray-400 hover:text-[#FFB800] transition-colors">thecheesetown@gmail.com</a></li>
             </ul>
           </div>
         </div>
