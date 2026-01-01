@@ -23,7 +23,7 @@ export default function Hero() {
 
           <div className="pt-4 pb-4">
             <a
-              href="https://expo.dev/artifacts/eas/p8GjfRhWhXhz9ZeGcGMUXp.apk"
+              href="https://expo.dev/artifacts/eas/kd96QidaxZKEHLsdEhZCPb.apk"
               className="inline-flex items-center gap-3 bg-gradient-to-r from-[#FFB800] to-[#FFD54A] text-black px-8 md:px-10 py-4 md:py-5 rounded-full text-lg font-semibold hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-[#FFB800]/50 animate-pulse-glow"
             >
               <Smartphone className="w-6 h-6" />
