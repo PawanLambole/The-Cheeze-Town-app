@@ -33,7 +33,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://expo.dev/artifacts/eas/dLXiyRg6E1jiqNRanzYNsL.apk"
+            href="https://expo.dev/artifacts/eas/7ozeDL7M5dX5rmHp4xsyUj.apk"
             className="bg-gradient-to-r from-[#FFB800] to-[#FFD54A] text-black px-6 py-2 rounded-full hover:scale-105 transition-transform duration-300 font-semibold shadow-lg"
           >
             Download
@@ -66,7 +66,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="https://expo.dev/artifacts/eas/dLXiyRg6E1jiqNRanzYNsL.apk"
+              href="https://expo.dev/artifacts/eas/7ozeDL7M5dX5rmHp4xsyUj.apk"
               className="bg-gradient-to-r from-[#FFB800] to-[#FFD54A] text-black px-6 py-3 rounded-full text-center font-semibold shadow-lg hover:scale-105 transition-transform duration-300"
               onClick={() => setIsOpen(false)}
             >
